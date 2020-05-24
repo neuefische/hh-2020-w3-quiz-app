@@ -12,6 +12,7 @@ body {
   font-family: sans-serif;
   height: 100%;
   margin: 0;
+  overflow: hidden; // prevent outer scroll on mobile
 }
 
 a {
@@ -19,5 +20,5 @@ a {
 }
 
 button, input, textarea {
-  font-size: 1em;
+  font-size: 1em; // set to normal font size, browser default is smaller
 }

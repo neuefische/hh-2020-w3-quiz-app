@@ -7,10 +7,11 @@
 .card__container {
   display: grid;
   gap: 20px;
-  overflow: scroll;
+  overflow-y: scroll;
   padding: 20px;
 }
 
+// fix bug to create scroll-padding at the bottom
 .card__container--scrollfix::after {
   content: '';
   display: block;
