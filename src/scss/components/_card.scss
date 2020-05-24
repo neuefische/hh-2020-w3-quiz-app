@@ -10,3 +10,9 @@
   overflow: scroll;
   padding: 20px;
 }
+
+.card__container--scrollfix::after {
+  content: '';
+  display: block;
+  height: 50px;
+}

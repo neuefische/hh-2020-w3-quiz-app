@@ -1,17 +1,49 @@
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.scrollable {
-  overflow: scroll;
+// padding
+.p-12 {
+  padding: 12px;
 }
 
 .p-20 {
   padding: 20px;
 }
 
+
+// margin
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// grid
 .gap-20 {
   display: grid;
   gap: 20px;
+}
+
+// shadow
+.shadow-s {
+  box-shadow: 0 4px 4px #0008;
+}
+
+.shadow-s-down {
+  position: relative;
+
+  &::after {
+  content: '';
+  display: block;
+  height: 6px;
+  background: linear-gradient(#0004 10%, transparent);
+  width: 100%;
+  position: absolute;
+  top: 100%;
+}
+}
+
+// other
+.pos-rel {
+  position: relative;
+}
+
+.scrollable {
+  overflow: scroll;
 }
